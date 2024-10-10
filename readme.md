@@ -4,8 +4,9 @@ Github packages workflow based on the template [maven-publish][4] from the githu
 Also see [Github packages quickstart guide][2] and the example [publishing java packages with maven][3].
 
 Configuration for publishing packages is handled by github's [`setup-java`][5] action, by creating a `settings.xml`.
-The pom requires some additional gpg config, as described [here][7].
 Also see [working with the apache maven registry][6] and [Maven pom docs][8].
+
+If using gpg, e.g. for publishing to maven central, the pom requires some additional config, as described [here][7].
 
 [1]: https://maven.apache.org/guides/getting-started/index.html
 [2]: https://docs.github.com/en/packages/quickstart
