@@ -5,7 +5,7 @@ Also see [Github packages quickstart guide][2] and the example [publishing java 
 
 Configuration for publishing packages is handled by github's [`setup-java`][5] action, by creating a `settings.xml`.
 The pom requires some additional gpg config, as described [here][7].
-Also see [working with the apache maven registry][6].
+Also see [working with the apache maven registry][6] and [Maven pom docs][8].
 
 [1]: https://maven.apache.org/guides/getting-started/index.html
 [2]: https://docs.github.com/en/packages/quickstart
@@ -14,3 +14,4 @@ Also see [working with the apache maven registry][6].
 [5]: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#Publishing-using-Apache-Maven
 [6]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#publishing-a-package
 [7]: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#extra-setup-for-pomxml
+[8]: https://maven.apache.org/pom.html#Distribution_Management
